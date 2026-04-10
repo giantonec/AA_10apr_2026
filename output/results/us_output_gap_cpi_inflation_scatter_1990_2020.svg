@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#222} .grid{stroke:#d9d9d9;stroke-width:1} .axis{stroke:#333;stroke-width:1.4} .pt{fill:#1f4e79;fill-opacity:.62} .fit{stroke:#a61c3c;stroke-width:3;fill:none} .zero{stroke:#777;stroke-width:1.3;stroke-dasharray:6 5}</style>
+<text x="450.0" y="34" text-anchor="middle" font-size="24" font-weight="700">US Inflation and the Output Gap, 1990-2020</text>
+<line class="grid" x1="90.00" y1="70" x2="90.00" y2="535"/>
+<line class="grid" x1="219.17" y1="70" x2="219.17" y2="535"/>
+<line class="grid" x1="348.33" y1="70" x2="348.33" y2="535"/>
+<line class="grid" x1="477.50" y1="70" x2="477.50" y2="535"/>
+<line class="grid" x1="606.67" y1="70" x2="606.67" y2="535"/>
+<line class="grid" x1="735.83" y1="70" x2="735.83" y2="535"/>
+<line class="grid" x1="865.00" y1="70" x2="865.00" y2="535"/>
+<line class="grid" x1="90" y1="535.00" x2="865" y2="535.00"/>
+<line class="grid" x1="90" y1="457.50" x2="865" y2="457.50"/>
+<line class="grid" x1="90" y1="380.00" x2="865" y2="380.00"/>
+<line class="grid" x1="90" y1="302.50" x2="865" y2="302.50"/>
+<line class="grid" x1="90" y1="225.00" x2="865" y2="225.00"/>
+<line class="grid" x1="90" y1="147.50" x2="865" y2="147.50"/>
+<line class="grid" x1="90" y1="70.00" x2="865" y2="70.00"/>
+<line class="zero" x1="664.97" y1="70" x2="664.97" y2="535"/>
+<line class="axis" x1="90" y1="535" x2="865" y2="535"/>
+<line class="axis" x1="90" y1="70" x2="90" y2="535"/>
+<line class="axis" x1="90.00" y1="535" x2="90.00" y2="541"/>
+<text x="90.00" y="561" text-anchor="middle" font-size="14">-9.7</text>
+<line class="axis" x1="219.17" y1="535" x2="219.17" y2="541"/>
+<text x="219.17" y="561" text-anchor="middle" font-size="14">-7.5</text>
+<line class="axis" x1="348.33" y1="535" x2="348.33" y2="541"/>
+<text x="348.33" y="561" text-anchor="middle" font-size="14">-5.4</text>
+<line class="axis" x1="477.50" y1="535" x2="477.50" y2="541"/>
+<text x="477.50" y="561" text-anchor="middle" font-size="14">-3.2</text>
+<line class="axis" x1="606.67" y1="535" x2="606.67" y2="541"/>
+<text x="606.67" y="561" text-anchor="middle" font-size="14">-1.0</text>
+<line class="axis" x1="735.83" y1="535" x2="735.83" y2="541"/>
+<text x="735.83" y="561" text-anchor="middle" font-size="14">1.2</text>
+<line class="axis" x1="865.00" y1="535" x2="865.00" y2="541"/>
+<text x="865.00" y="561" text-anchor="middle" font-size="14">3.4</text>
+<line class="axis" x1="84" y1="535.00" x2="90" y2="535.00"/>
+<text x="80" y="540.00" text-anchor="end" font-size="14">-2.4</text>
+<line class="axis" x1="84" y1="457.50" x2="90" y2="457.50"/>
+<text x="80" y="462.50" text-anchor="end" font-size="14">-0.8</text>
+<line class="axis" x1="84" y1="380.00" x2="90" y2="380.00"/>
+<text x="80" y="385.00" text-anchor="end" font-size="14">0.8</text>
+<line class="axis" x1="84" y1="302.50" x2="90" y2="302.50"/>
+<text x="80" y="307.50" text-anchor="end" font-size="14">2.3</text>
+<line class="axis" x1="84" y1="225.00" x2="90" y2="225.00"/>
+<text x="80" y="230.00" text-anchor="end" font-size="14">3.9</text>
+<line class="axis" x1="84" y1="147.50" x2="90" y2="147.50"/>
+<text x="80" y="152.50" text-anchor="end" font-size="14">5.5</text>
+<line class="axis" x1="84" y1="70.00" x2="90" y2="70.00"/>
+<text x="80" y="75.00" text-anchor="end" font-size="14">7.1</text>
+<text x="450.0" y="596" text-anchor="middle" font-size="17">Output gap (%)</text>
+<text x="22" y="310.0" text-anchor="middle" font-size="17" transform="rotate(-90 22 310.0)">CPI inflation (%; year-over-year)</text>
+<line class="fit" x1="90.00" y1="418.69" x2="865.00" y2="244.63"/>
+<circle class="pt" cx="761.71" cy="160.05" r="3.2"/>
+<circle class="pt" cx="742.28" cy="191.97" r="3.2"/>
+<circle class="pt" cx="706.20" cy="143.75" r="3.2"/>
+<circle class="pt" cx="613.48" cy="108.75" r="3.2"/>
+<circle class="pt" cx="548.46" cy="158.76" r="3.2"/>
+<circle class="pt" cx="556.66" cy="179.03" r="3.2"/>
+<circle class="pt" cx="549.28" cy="227.92" r="3.2"/>
+<circle class="pt" cx="532.51" cy="271.50" r="3.2"/>
+<circle class="pt" cx="564.17" cy="275.02" r="3.2"/>
+<circle class="pt" cx="589.03" cy="266.19" r="3.2"/>
+<circle class="pt" cx="607.81" cy="266.13" r="3.2"/>
+<circle class="pt" cx="629.42" cy="263.81" r="3.2"/>
+<circle class="pt" cx="599.13" cy="261.29" r="3.2"/>
+<circle class="pt" cx="592.75" cy="263.66" r="3.2"/>
+<circle class="pt" cx="579.99" cy="278.78" r="3.2"/>
+<circle class="pt" cx="617.91" cy="281.14" r="3.2"/>
+<circle class="pt" cx="632.97" cy="292.43" r="3.2"/>
+<circle class="pt" cx="670.53" cy="300.15" r="3.2"/>
+<circle class="pt" cx="662.73" cy="276.92" r="3.2"/>
+<circle class="pt" cx="687.47" cy="289.30" r="3.2"/>
+<circle class="pt" cx="665.62" cy="277.65" r="3.2"/>
+<circle class="pt" cx="640.23" cy="265.11" r="3.2"/>
+<circle class="pt" cx="647.08" cy="286.32" r="3.2"/>
+<circle class="pt" cx="643.18" cy="288.17" r="3.2"/>
+<circle class="pt" cx="642.77" cy="280.42" r="3.2"/>
+<circle class="pt" cx="693.79" cy="278.30" r="3.2"/>
+<circle class="pt" cx="697.16" cy="274.71" r="3.2"/>
+<circle class="pt" cx="706.31" cy="258.43" r="3.2"/>
+<circle class="pt" cx="690.13" cy="272.51" r="3.2"/>
+<circle class="pt" cx="732.30" cy="304.12" r="3.2"/>
+<circle class="pt" cx="748.24" cy="307.89" r="3.2"/>
+<circle class="pt" cx="739.56" cy="324.32" r="3.2"/>
+<circle class="pt" cx="738.62" cy="344.39" r="3.2"/>
+<circle class="pt" cx="732.00" cy="339.44" r="3.2"/>
+<circle class="pt" cx="744.64" cy="338.80" r="3.2"/>
+<circle class="pt" cx="777.36" cy="342.26" r="3.2"/>
+<circle class="pt" cx="769.74" cy="334.33" r="3.2"/>
+<circle class="pt" cx="756.04" cy="313.43" r="3.2"/>
+<circle class="pt" cx="771.69" cy="301.93" r="3.2"/>
+<circle class="pt" cx="806.00" cy="288.49" r="3.2"/>
+<circle class="pt" cx="764.31" cy="257.13" r="3.2"/>
+<circle class="pt" cx="811.55" cy="255.36" r="3.2"/>
+<circle class="pt" cx="758.87" cy="246.75" r="3.2"/>
+<circle class="pt" cx="739.09" cy="248.00" r="3.2"/>
+<circle class="pt" cx="667.51" cy="249.66" r="3.2"/>
+<circle class="pt" cx="656.06" cy="253.83" r="3.2"/>
+<circle class="pt" cx="588.32" cy="285.62" r="3.2"/>
+<circle class="pt" cx="563.63" cy="325.10" r="3.2"/>
+<circle class="pt" cx="574.26" cy="356.72" r="3.2"/>
+<circle class="pt" cx="574.03" cy="352.51" r="3.2"/>
+<circle class="pt" cx="563.04" cy="339.78" r="3.2"/>
+<circle class="pt" cx="536.59" cy="306.49" r="3.2"/>
+<circle class="pt" cx="533.40" cy="270.96" r="3.2"/>
+<circle class="pt" cx="550.46" cy="318.66" r="3.2"/>
+<circle class="pt" cx="612.12" cy="308.29" r="3.2"/>
+<circle class="pt" cx="644.36" cy="318.86" r="3.2"/>
+<circle class="pt" cx="641.06" cy="327.91" r="3.2"/>
+<circle class="pt" cx="649.44" cy="280.33" r="3.2"/>
+<circle class="pt" cx="667.34" cy="285.78" r="3.2"/>
+<circle class="pt" cx="689.01" cy="250.88" r="3.2"/>
+<circle class="pt" cx="716.65" cy="268.07" r="3.2"/>
+<circle class="pt" cx="708.91" cy="273.59" r="3.2"/>
+<circle class="pt" cx="718.95" cy="229.51" r="3.2"/>
+<circle class="pt" cx="716.23" cy="236.64" r="3.2"/>
+<circle class="pt" cx="761.24" cy="235.84" r="3.2"/>
+<circle class="pt" cx="742.69" cy="224.37" r="3.2"/>
+<circle class="pt" cx="719.42" cy="253.08" r="3.2"/>
+<circle class="pt" cx="739.86" cy="320.66" r="3.2"/>
+<circle class="pt" cx="727.16" cy="297.74" r="3.2"/>
+<circle class="pt" cx="732.95" cy="286.25" r="3.2"/>
+<circle class="pt" cx="736.67" cy="301.80" r="3.2"/>
+<circle class="pt" cx="744.05" cy="219.12" r="3.2"/>
+<circle class="pt" cx="689.01" cy="213.91" r="3.2"/>
+<circle class="pt" cx="696.10" cy="205.39" r="3.2"/>
+<circle class="pt" cx="638.64" cy="159.08" r="3.2"/>
+<circle class="pt" cx="486.21" cy="338.82" r="3.2"/>
+<circle class="pt" cx="400.05" cy="426.32" r="3.2"/>
+<circle class="pt" cx="370.58" cy="463.57" r="3.2"/>
+<circle class="pt" cx="372.35" cy="496.25" r="3.2"/>
+<circle class="pt" cx="415.58" cy="344.14" r="3.2"/>
+<circle class="pt" cx="425.32" cy="301.62" r="3.2"/>
+<circle class="pt" cx="461.88" cy="330.00" r="3.2"/>
+<circle class="pt" cx="486.45" cy="358.14" r="3.2"/>
+<circle class="pt" cx="496.25" cy="356.81" r="3.2"/>
+<circle class="pt" cx="461.64" cy="311.67" r="3.2"/>
+<circle class="pt" cx="478.65" cy="252.79" r="3.2"/>
+<circle class="pt" cx="455.32" cy="234.61" r="3.2"/>
+<circle class="pt" cx="496.37" cy="252.86" r="3.2"/>
+<circle class="pt" cx="520.64" cy="278.19" r="3.2"/>
+<circle class="pt" cx="521.94" cy="324.46" r="3.2"/>
+<circle class="pt" cx="505.58" cy="334.45" r="3.2"/>
+<circle class="pt" cx="487.33" cy="323.69" r="3.2"/>
+<circle class="pt" cx="518.16" cy="331.72" r="3.2"/>
+<circle class="pt" cx="507.65" cy="347.72" r="3.2"/>
+<circle class="pt" cx="530.38" cy="343.29" r="3.2"/>
+<circle class="pt" cx="553.89" cy="357.92" r="3.2"/>
+<circle class="pt" cx="506.82" cy="346.98" r="3.2"/>
+<circle class="pt" cx="553.48" cy="315.01" r="3.2"/>
+<circle class="pt" cx="595.52" cy="329.23" r="3.2"/>
+<circle class="pt" cx="596.23" cy="360.05" r="3.2"/>
+<circle class="pt" cx="619.38" cy="422.81" r="3.2"/>
+<circle class="pt" cx="626.00" cy="415.44" r="3.2"/>
+<circle class="pt" cx="619.74" cy="409.47" r="3.2"/>
+<circle class="pt" cx="600.66" cy="397.58" r="3.2"/>
+<circle class="pt" cx="604.50" cy="368.51" r="3.2"/>
+<circle class="pt" cx="593.40" cy="362.70" r="3.2"/>
+<circle class="pt" cx="605.21" cy="360.38" r="3.2"/>
+<circle class="pt" cx="608.28" cy="328.44" r="3.2"/>
+<circle class="pt" cx="607.63" cy="290.10" r="3.2"/>
+<circle class="pt" cx="611.29" cy="324.33" r="3.2"/>
+<circle class="pt" cx="628.24" cy="321.66" r="3.2"/>
+<circle class="pt" cx="664.86" cy="313.66" r="3.2"/>
+<circle class="pt" cx="682.93" cy="306.73" r="3.2"/>
+<circle class="pt" cx="683.99" cy="285.20" r="3.2"/>
+<circle class="pt" cx="690.43" cy="289.02" r="3.2"/>
+<circle class="pt" cx="668.05" cy="308.46" r="3.2"/>
+<circle class="pt" cx="673.60" cy="337.14" r="3.2"/>
+<circle class="pt" cx="691.61" cy="327.69" r="3.2"/>
+<circle class="pt" cx="729.58" cy="331.27" r="3.2"/>
+<circle class="pt" cx="739.80" cy="316.57" r="3.2"/>
+<circle class="pt" cx="631.90" cy="311.89" r="3.2"/>
+<circle class="pt" cx="143.45" cy="397.14" r="3.2"/>
+<circle class="pt" cx="535.29" cy="357.14" r="3.2"/>
+<circle class="pt" cx="574.15" cy="356.20" r="3.2"/>
+<text x="90" y="614" font-size="12">Source: output gap from GDPC1 and GDPPOT; inflation from CPIAUCSL quarterly averages.</text>
+</svg>

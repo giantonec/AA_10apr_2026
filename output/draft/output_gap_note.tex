@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{titlesec}
+\pgfplotsset{compat=1.18}
+
+\setstretch{1.02}
+\pagenumbering{gobble}
+\titleformat{\section}{\normalsize\bfseries}{}{0em}{}
+
+\begin{document}
+
+\begin{center}
+{\Large A Brief Note on the U.S. Output Gap and CPI Inflation, 1990--2020}
+\end{center}
+
+This note combines the quarterly U.S. output-gap series with a quarterly measure of CPI inflation over 1990--2020. The output gap is computed as the percentage deviation of real GDP from potential GDP, while inflation is measured as the year-over-year change in the quarterly average of the CPI for All Urban Consumers (CPIAUCSL). The merged sample provides a simple way to visualize the empirical relationship between economic slack and price dynamics.
+
+Figure 1 plots inflation on the vertical axis against the output gap on the horizontal axis. If a strong Phillips-curve relationship dominated the sample, the points would be tightly aligned along an upward-sloping schedule: positive output gaps would coincide with clearly higher inflation, while negative gaps would be associated with lower inflation. Instead, the cloud is fairly dispersed. The fitted line slopes upward, so the average association is positive, but the relationship is weak rather than tight. This is consistent with the view that U.S. inflation became less sensitive to domestic slack over time.
+
+Several features stand out. First, quarters with modestly positive output gaps do not always display high inflation, especially in the later part of the sample. Second, some periods of sizeable negative slack still show inflation rates above zero, which suggests inertia in price-setting and the influence of factors other than current real activity. Third, extreme observations linked to large macroeconomic shocks, including the Global Financial Crisis and the pandemic recession, widen the dispersion of the cloud and remind us that short-run comovement between slack and inflation is noisy.
+
+The figure therefore supports a cautious interpretation. Over 1990--2020, a stronger economy is associated on average with somewhat higher CPI inflation, but the link is not strong enough to treat the output gap as a sufficient statistic for inflation dynamics. For policy analysis, this means that measures of slack remain informative, yet they should be combined with expectations, supply conditions, and institutional features when interpreting inflation outcomes.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.9\textwidth,
+    height=0.52\textheight,
+    xlabel={Output gap (\%)},
+    ylabel={CPI inflation (\%; year-over-year)},
+    title={U.S. CPI Inflation and the Output Gap, 1990--2020},
+    grid=both,
+    grid style={line width=.1pt, draw=gray!20},
+    major grid style={line width=.2pt, draw=gray!35},
+    tick label style={font=\small},
+    label style={font=\small},
+    title style={font=\normalsize},
+    enlargelimits=0.05
+]
+\addplot[
+    only marks,
+    mark=*,
+    mark size=1.7pt,
+    color=blue!60!black,
+    opacity=0.65
+] table[
+    col sep=comma,
+    x=output_gap_percent,
+    y=inflation_percent
+]{../../data/us_output_gap_cpi_inflation_1990_2020.csv};
+
+\addplot[
+    color=red!70!black,
+    thick
+] table[
+    col sep=comma,
+    x=output_gap_percent,
+    y={create col/linear regression={y=inflation_percent}}
+]{../../data/us_output_gap_cpi_inflation_1990_2020.csv};
+\end{axis}
+\end{tikzpicture}
+
+\small Figure 1. Scatterplot of quarterly CPI inflation against the U.S. output gap. Inflation is the year-over-year percent change in the quarterly average of CPIAUCSL. The red line is a fitted linear trend.
+\end{center}
+
+\end{document}
